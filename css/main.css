@@ -16,7 +16,7 @@ html {
     box-sizing: inherit;
 }
 
-body, h1, a {
+body, a {
     font-family: Teko, sans-serif;
     min-height: 100%;
     display: flex;
@@ -25,6 +25,9 @@ body, h1, a {
     /* mobile. Tamaño mínimo recomendado */
     font-size: 25px;
     line-height: 1.4em;
+}
+h1{
+    font-family: 'Teko', sans-serif;
 }
 
 h2, h3, h4, h5, h6, p {
@@ -41,7 +44,7 @@ h2, h3, h4, h5, h6, p {
 /* Escritorio */
 @media (min-width: 1024px) {
     body {
-      font-size: 18px;
+      font-size: 28px;
     }
 }
 
@@ -68,18 +71,19 @@ nav ul li {
 }
 
 a {
-    color: #000;
+    color: #3C3BF3;
     font-weight: 600;
     text-decoration: none;
     padding: 0.25em .5em;
     text-transform: uppercase;
     min-width: 42px;
+    transition: all 500ms ease-out; /* transision*/
 }
 
 a.active,
 a:hover {
-    background-color: #000;
-    color: #FFF;
+    transition: all 500ms ease-in; /* transision*/    background-color: #F2F2F2;
+    color: #3C3BF3;
 }
 
 footer {

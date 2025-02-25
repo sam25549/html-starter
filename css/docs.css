@@ -3,8 +3,8 @@ a {
     padding: 0.25em .5em;
     text-transform: uppercase;
     min-width: 42px;
-    background-color: #000;
-    color: #FFF;
+    background-color: #3B42C9;
+    color: #F2F2F2;
 }
 
 .invert {
@@ -22,8 +22,8 @@ header#main-header {
 
 header#main-header,
 footer#main-footer {
-    background-color: #000;
-    color: #FFF;
+    background-color: #3B42C9;
+    color: #F2F2F2;
 }
 
 footer#main-footer .container {
